@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from './router';
+import { Link } from '../router/router';
 
 export default function UserPageFollowing({ following }) {
   const json = following.read();

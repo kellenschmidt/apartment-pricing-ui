@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import { Router } from './router';
+import { Router } from '../router/router';
 import ErrorBoundary from './ErrorBoundary';
 import Spinner from './Spinner';
 

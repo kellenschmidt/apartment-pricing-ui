@@ -1,5 +1,5 @@
 import React, { useLayoutEffect } from 'react';
-import { Link } from './router';
+import { Link } from '../router/router';
 
 export default function RepoPage({ repo, contribs }) {
   useLayoutEffect(() => {

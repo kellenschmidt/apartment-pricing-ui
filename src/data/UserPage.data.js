@@ -1,4 +1,4 @@
-import { fetchUser } from './api';
+import { fetchUser } from '../api';
 import prepareUserPageStars from './UserPageStars.data';
 import prepareUserPageFollowing from './UserPageFollowing.data';
 

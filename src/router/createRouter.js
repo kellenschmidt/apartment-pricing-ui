@@ -1,6 +1,6 @@
 import React, { createContext, lazy, useState, useCallback, useContext, useEffect, useTransition } from 'react';
 import { unstable_runWithPriority, unstable_UserBlockingPriority } from 'scheduler';
-import Spinner from './Spinner';
+import Spinner from '../components/Spinner';
 
 if (window.location.pathname === '/') {
   // Reload to our initial page.

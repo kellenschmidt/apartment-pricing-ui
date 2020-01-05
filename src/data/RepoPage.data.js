@@ -1,4 +1,4 @@
-import { fetchRepo, fetchRepoContribs } from './api';
+import { fetchRepo, fetchRepoContribs } from '../api';
 
 // Data dependencies are a separate file tree colocated with the component tree.
 // Tools like Relay automate creating these files, but here we'll do it by hand.
